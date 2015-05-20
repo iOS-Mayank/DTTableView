@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
 
 
@@ -130,6 +130,6 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  s.dependency "SDWebImage/Core", "~> 3.7"
 
 end
